@@ -1,0 +1,8 @@
+/* Header.css */
+.active {
+  border-radius: 50%;
+  background-color: #f96167; /* Replace with your active background color */
+  color: #ffffff; /* Replace with your active text color */
+  transform: scale(1.1); /* Add a scale effect to the active icon if desired */
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+}
