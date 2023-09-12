@@ -3,6 +3,9 @@ import React, { useEffect, useState } from "react";
 import card from "../assests/background.png";
 import { AiOutlineGithub } from "react-icons/ai";
 import { BsArrowUpRightSquareFill } from "react-icons/bs";
+import cardTodo from "../assests/cardtodo.jpg";
+import ecomm from "../assests/ecomm.png";
+import gamegenre from "../assests/gamegenre.png";
 
 const ProjectCards = () => {
   const [screenSize, setScreenSize] = useState(screen.width);
@@ -69,7 +72,7 @@ const ProjectCards = () => {
           <div className="basis-1/2 pt-6 ">
             <div
               className=" w-full h-[400px] bg-no-repeat bg-top bg-cover transition-all hover:bg-bottom duration-[15000ms] rounded-lg "
-              style={{ backgroundImage: `url(${card})` }}
+              style={{ backgroundImage: `url(${ecomm})` }}
             ></div>
           </div>
           {/* text */}
@@ -78,11 +81,10 @@ const ProjectCards = () => {
               Fashion Ecommerce Website
             </h1>
             <p>
-              href attribute is required for an anchor to be keyboard
-              accessible. Provide a valid, navigable address as the href value.
-              If you cannot provide an href, but still need the element to
-              resemble a link, use a button and change it with appropriate
-              styles.
+              An e-commerce website showcasing both men's and women's clothing,
+              featuring essential functionalities such as adding items to the
+              shopping cart, updating the cart contents, modifying item
+              quantities, and removing items from the cart.
             </p>
             <div className="text-align flex justify-center items-center px-10 py-6">
               <button className=" p-2 shadow-lg rounded-md mr-6">React</button>
@@ -119,11 +121,10 @@ const ProjectCards = () => {
               Fashion Ecommerce Website
             </h1>
             <p>
-              href attribute is required for an anchor to be keyboard
-              accessible. Provide a valid, navigable address as the href value.
-              If you cannot provide an href, but still need the element to
-              resemble a link, use a button and change it with appropriate
-              styles.
+              An e-commerce website showcasing both men's and women's clothing,
+              featuring essential functionalities such as adding items to the
+              shopping cart, updating the cart contents, modifying item
+              quantities, and removing items from the cart.
             </p>
             <div className="text-align flex justify-center items-center px-10 py-6">
               <button className=" p-2 shadow-lg rounded-md mr-6">React</button>
@@ -154,7 +155,7 @@ const ProjectCards = () => {
           <div className="basis-1/2 pt-6 ">
             <div
               className=" w-full h-[400px] bg-no-repeat bg-top bg-cover transition-all hover:bg-bottom duration-[15000ms] rounded-lg "
-              style={{ backgroundImage: `url(${card})` }}
+              style={{ backgroundImage: `url(${ecomm})` }}
             ></div>
           </div>
         </div>
@@ -164,7 +165,7 @@ const ProjectCards = () => {
         <div className="basis-1/2 pt-6 ">
           <div
             className=" w-full h-[400px] bg-no-repeat bg-top bg-cover transition-all hover:bg-bottom duration-[15000ms] rounded-lg "
-            style={{ backgroundImage: `url(${card})` }}
+            style={{ backgroundImage: `url(${gamegenre})` }}
           ></div>
         </div>
         {/* text */}
@@ -173,10 +174,10 @@ const ProjectCards = () => {
             Game Dashboard
           </h1>
           <p>
-            href attribute is required for an anchor to be keyboard accessible.
-            Provide a valid, navigable address as the href value. If you cannot
-            provide an href, but still need the element to resemble a link, use
-            a button and change it with appropriate styles.
+            A game dashboard in the style of Rawio, featuring Chakra UI for
+            design. The dashboard includes filtering options for sorting games
+            by name, genre, and platform, and also offers a dark mode theme for
+            user customization.
           </p>
           <div className="text-align flex justify-center items-center px-10 py-6">
             <button className=" p-2 shadow-lg rounded-md mr-6">React</button>
@@ -212,34 +213,41 @@ const ProjectCards = () => {
           <div className="basis-1/2 pt-6 ">
             <div
               className=" w-full h-[400px] bg-no-repeat bg-top bg-cover transition-all hover:bg-bottom duration-[15000ms] rounded-lg "
-              style={{ backgroundImage: `url(${card})` }}
+              style={{ backgroundImage: `url(${cardTodo})` }}
             ></div>
           </div>
           {/* text */}
           <div className="basis-1/2 p-4">
             <h1 className="font-semibold max-md:py-4 pb-4 text-center">
-              Fashion Ecommerce Website
+              Task Management Application
             </h1>
             <p>
-              href attribute is required for an anchor to be keyboard
-              accessible. Provide a valid, navigable address as the href value.
-              If you cannot provide an href, but still need the element to
-              resemble a link, use a button and change it with appropriate
-              styles.
+              A task management application, utilizing hooks and local storage,
+              serves as a valuable tool for users to efficiently manage their
+              tasks by enabling the creation, modification, and deletion of
+              tasks, ultimately aiding in organization and productivity.
             </p>
             <div className="text-align flex justify-center items-center px-10 py-6">
               <button className=" p-2 shadow-lg rounded-md mr-6">React</button>
-              <button className="p-2 shadow-lg  rounded-md ">Tailwind</button>
+              <button className="p-2 shadow-lg  rounded-md ">CRUD</button>
             </div>
             <div className="text-align flex justify-between items-center px-4 py-2">
-              <a>
+              <a
+                href="https://worklist-gnfi7meze-khushboo84.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button className="p-4 ">
                   Live Demo{" "}
                   <BsArrowUpRightSquareFill className="inline text-sm" />
                 </button>
               </a>
               <button className="p-4">
-                <a>
+                <a
+                  href="https://github.com/khushboo84/todo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Code <AiOutlineGithub className="inline" />
                 </a>
               </button>
@@ -251,28 +259,35 @@ const ProjectCards = () => {
           {/* text */}
           <div className="basis-1/2 p-4">
             <h1 className="font-semibold max-md:py-4 pb-4 text-center">
-              Fashion Ecommerce Website
+              Task Management Application
             </h1>
             <p>
-              href attribute is required for an anchor to be keyboard
-              accessible. Provide a valid, navigable address as the href value.
-              If you cannot provide an href, but still need the element to
-              resemble a link, use a button and change it with appropriate
-              styles.
+              A task management application, utilizing hooks and local storage,
+              serves as a valuable tool for users to efficiently manage their
+              tasks by enabling the creation, modification, and deletion of
+              tasks, ultimately aiding in organization and productivity.
             </p>
             <div className="text-align flex justify-center items-center px-10 py-6">
               <button className=" p-2 shadow-lg rounded-md mr-6">React</button>
-              <button className="p-2 shadow-lg  rounded-md ">Tailwind</button>
+              <button className="p-2 shadow-lg  rounded-md ">CRUD</button>
             </div>
             <div className="text-align flex justify-between items-center px-4 py-2">
-              <a>
+              <a
+                href="https://worklist-gnfi7meze-khushboo84.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button className="p-4 ">
                   Live Demo{" "}
                   <BsArrowUpRightSquareFill className="inline text-sm" />
                 </button>
               </a>
               <button className="p-4">
-                <a>
+                <a
+                  href="https://github.com/khushboo84/todo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Code <AiOutlineGithub className="inline" />
                 </a>
               </button>
@@ -281,7 +296,7 @@ const ProjectCards = () => {
           <div className="basis-1/2 pt-6 ">
             <div
               className=" w-full h-[400px] bg-no-repeat bg-top bg-cover transition-all hover:bg-bottom duration-[15000ms] rounded-lg "
-              style={{ backgroundImage: `url(${card})` }}
+              style={{ backgroundImage: `url(${cardTodo})` }}
             ></div>
           </div>
         </div>
