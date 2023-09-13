@@ -29,7 +29,7 @@ const ProjectCards = () => {
       <div className=" shadow-md rounded-lg p-6 flex max-lg:flex-col my-6 ">
         <div className="basis-1/2 pt-6 ">
           <div
-            className=" w-full h-[400px] bg-no-repeat bg-top bg-cover transition-all hover:bg-bottom duration-[5000ms] rounded-lg "
+            className=" w-full max-lg:h-[200px] h-[400px] bg-no-repeat bg-top bg-cover transition-all hover:bg-bottom duration-[5000ms] rounded-lg "
             style={{ backgroundImage: `url(${rounddigi})` }}
           ></div>
         </div>
@@ -74,7 +74,7 @@ const ProjectCards = () => {
         <div className=" shadow-md rounded-lg p-6 flex max-lg:flex-col my-6">
           <div className="basis-1/2 pt-6 ">
             <div
-              className=" w-full h-[400px] bg-no-repeat bg-top bg-cover transition-all hover:bg-bottom duration-[5000ms] rounded-lg "
+              className=" w-full max-lg:h-[200px] h-[400px] bg-no-repeat bg-top bg-cover transition-all hover:bg-bottom duration-[5000ms] rounded-lg "
               style={{ backgroundImage: `url(${ecomm})` }}
             ></div>
           </div>
@@ -157,7 +157,7 @@ const ProjectCards = () => {
           </div>
           <div className="basis-1/2 pt-6 ">
             <div
-              className=" w-full h-[400px] bg-no-repeat bg-top bg-cover transition-all hover:bg-bottom duration-[5000ms] rounded-lg "
+              className=" w-full max-lg:h-[200px] h-[400px] bg-no-repeat bg-top bg-cover transition-all hover:bg-bottom duration-[5000ms] rounded-lg "
               style={{ backgroundImage: `url(${ecomm})` }}
             ></div>
           </div>
@@ -167,7 +167,7 @@ const ProjectCards = () => {
       <div className=" shadow-md rounded-lg p-6 flex max-lg:flex-col my-6">
         <div className="basis-1/2 pt-6 ">
           <div
-            className=" w-full h-[400px] bg-no-repeat bg-top bg-cover transition-all hover:bg-bottom duration-[5000ms] rounded-lg "
+            className=" w-full max-lg:h-[200px] h-[400px] bg-no-repeat bg-top bg-cover transition-all hover:bg-bottom duration-[5000ms] rounded-lg "
             style={{ backgroundImage: `url(${gamegenre})` }}
           ></div>
         </div>
@@ -215,7 +215,7 @@ const ProjectCards = () => {
         <div className=" shadow-md rounded-lg p-6 flex max-lg:flex-col my-6">
           <div className="basis-1/2 pt-6 ">
             <div
-              className=" w-full h-[400px] bg-no-repeat bg-top bg-cover transition-all hover:bg-bottom duration-[5000ms] rounded-lg "
+              className=" w-full max-lg:h-[200px] h-[400px] bg-no-repeat bg-top bg-cover transition-all hover:bg-bottom duration-[5000ms] rounded-lg "
               style={{ backgroundImage: `url(${cardTodo})` }}
             ></div>
           </div>
@@ -298,7 +298,7 @@ const ProjectCards = () => {
           </div>
           <div className="basis-1/2 pt-6 ">
             <div
-              className=" w-full h-[400px] bg-no-repeat bg-top bg-cover transition-all hover:bg-bottom duration-[5000ms] rounded-lg "
+              className=" w-full max-lg:h-[200px] h-[400px] bg-no-repeat bg-top bg-cover transition-all hover:bg-bottom duration-[5000ms] rounded-lg "
               style={{ backgroundImage: `url(${cardTodo})` }}
             ></div>
           </div>
