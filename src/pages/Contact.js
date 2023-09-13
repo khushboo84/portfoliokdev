@@ -43,7 +43,7 @@ const Contact = () => {
         {/*  */}
         <div className="flex lg:flex-row max-lg:flex-col lg:gap-4 max-lg:justify-center max-lg:items-center">
           <div className=" max-lg:w-[500px] lg:w-[950px] p-8">
-            <img src={contactimg} alt="Image by jcomp on Freepik" />{" "}
+            <img src={contactimg} alt="pic by jcomp on Freepik" />{" "}
           </div>
 
           {/* message */}

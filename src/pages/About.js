@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../components/Header";
 import { BiLogoReact } from "react-icons/bi";
 import { DiJavascript } from "react-icons/di";
 import { AiOutlineHtml5 } from "react-icons/ai";
@@ -25,10 +24,13 @@ const About = () => {
             applications that not only dazzle visually but also perform
             flawlessly. With a solid background in front-end development, I
             thrive on transforming intricate concepts into elegant,
-            user-friendly solutions. Explore my portfolio, and you'll witness my
-            passion for crafting seamless, responsive experiences that leave a
-            lasting impression. I firmly believe that the synergy between
-            development and design is where innovation thrives.
+            user-friendly solutions.{" "}
+            <span className="max-md:hidden">
+              Explore my portfolio, and you'll witness my passion for crafting
+              seamless, responsive experiences that leave a lasting impression.
+              I firmly believe that the synergy between development and design
+              is where innovation thrives.
+            </span>
             <p className="font-semibold pt-4">
               I am not just a coder, I am an advocate for the intersection of
               these worlds, where ideas flourish and possibilities are
