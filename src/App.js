@@ -1,4 +1,3 @@
-import "./App.css";
 import LoadingIcon from "./components/LoadingIcon";
 
 function App() {
