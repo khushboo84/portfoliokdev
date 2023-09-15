@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BiLogoReact } from "react-icons/bi";
 import { DiJavascript } from "react-icons/di";
 import { AiOutlineHtml5 } from "react-icons/ai";
@@ -8,9 +8,45 @@ import { BiLogoTailwindCss } from "react-icons/bi";
 import { BsBootstrapFill } from "react-icons/bs";
 
 const About = () => {
+  useEffect(() => {
+    const aboutSection = document.getElementById("about");
+    const texttoanimate = document.getElementById("about");
+
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.1, // Adjust this threshold value as needed
+    };
+
+    const handleIntersection = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // console.log(entry.target.id);
+          texttoanimate.classList.add("animate-text-transform");
+        } else {
+          texttoanimate.classList.remove("animate-text-transform");
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(handleIntersection, options);
+
+    // Observe the about section
+    if (aboutSection) {
+      observer.observe(aboutSection);
+    }
+
+    // Clean up the observer when the component unmounts
+    return () => {
+      if (aboutSection) {
+        observer.unobserve(aboutSection);
+      }
+    };
+  }, []);
+
   return (
     <div id="about">
-      <div className="py-32">
+      <div className="py-32 " id="texttoanimate">
         <div className="px-20 md:px-32 xl:px-[250px] lg:text-xl xl:text-2xl">
           {/* header */}
           <div className="text-4xl xl:text-5xl font-bold py-8 max-lg:text-center">
@@ -31,7 +67,7 @@ const About = () => {
               I firmly believe that the synergy between development and design
               is where innovation thrives.
             </span>
-            <p className="font-semibold pt-4">
+            <p className="font-semibold pt-4 translate-y-6">
               I am not just a coder, I am an advocate for the intersection of
               these worlds, where ideas flourish and possibilities are
               limitless.

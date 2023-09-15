@@ -5,6 +5,7 @@ import About from "../pages/About";
 import Project from "../pages/Project";
 import Contact from "../pages/Contact";
 import ghost from "../assests/ghost.png";
+import "../";
 
 const LoadingIcon = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -32,7 +33,7 @@ const LoadingIcon = () => {
           </div>
         </div>
       ) : (
-        <div className="customlarge:container mx-auto ">
+        <div className="customlarge:container mx-auto scroll-smooth">
           <Header />
           <Home />
           <About />

@@ -35,12 +35,16 @@ module.exports = {
           "60%": { transform: "rotate(0.0deg)" },
           "100%": { transform: "rotate(0.0deg)" },
         },
-      },
-      keyframes: {
+
         float: {
           "0%": { transform: "translate(0)" },
           "50%": { transform: "translate(0, 60px)" },
           "100%": { transform: "translate(0)" },
+        },
+
+        text: {
+          from: { opacity: 0, transform: "translate(0, 60px)" },
+          to: { opacity: 1, transform: "translate(0)" },
         },
       },
       // animation: {
@@ -50,6 +54,7 @@ module.exports = {
         "spin-slow": "spin 5s linear infinite",
         "waving-hand": "wave 2s linear infinite",
         "float-ghost": "float 1s linear infinite",
+        "text-transform": "text 1s linear",
       },
     },
   },
