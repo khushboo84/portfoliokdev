@@ -110,7 +110,7 @@ const Contact = () => {
                 </li>
                 <li>
                   <div>
-                    <a href="mailto:khushboochauhan840@gmail.com">
+                    <a href="mailto:khushboo.chauhan.dev@gmail.com">
                       <AiFillMail className=" bg-primary text-4xl p-2 rounded-full shadow-xl" />
                     </a>
                   </div>
