@@ -23,42 +23,6 @@ const ProjectCards = () => {
     };
   }, [screenSize]);
 
-  //for animation
-  // useEffect(() => {
-  //   const cardSection = document.getElementById("card");
-  //   const texttoanimate = document.getElementById("card");
-
-  //   const options = {
-  //     root: null,
-  //     rootMargin: "0px",
-  //     threshold: 0.2, // Adjust this threshold value as needed
-  //   };
-
-  //   const handleIntersection = (entries) => {
-  //     entries.forEach((entry) => {
-  //       if (entry.isIntersecting) {
-  //         texttoanimate.classList.add("animate-text-transform");
-  //       } else {
-  //         texttoanimate.classList.remove("animate-text-transform");
-  //       }
-  //     });
-  //   };
-
-  //   const observer = new IntersectionObserver(handleIntersection, options);
-
-  //   // Observe the about section
-  //   if (cardSection) {
-  //     observer.observe(cardSection);
-  //   }
-
-  //   // Clean up the observer when the component unmounts
-  //   return () => {
-  //     if (cardSection) {
-  //       observer.unobserve(cardSection);
-  //     }
-  //   };
-  // }, []);
-
   return (
     <div className="" id="card">
       <div>
