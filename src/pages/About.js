@@ -126,7 +126,7 @@ const About = () => {
           <div className=" font-semibold text-2xl pt-16 ">
             <a
               className="underline hover:shadow-xl"
-              href="https://drive.google.com/file/d/1ciwc_Z0RwSTIw8R1RnpUmZFdux_RrZCU/view?usp=sharing"
+              href="https://drive.google.com/file/d/1EcNGABpC9kuLDwMlOsnedB-7fzUPyrM9/view?usp=sharing"
               download
               target="_blank"
               rel="noopener noreferrer"
